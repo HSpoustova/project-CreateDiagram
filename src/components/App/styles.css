@@ -1,0 +1,41 @@
+.header {
+  margin: 1rem;
+  align-content: flex-start;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  background-color: #9bb7f1;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    background-color: #333;
+    border: 1px solid #454545;
+  }
+}
+
+.label-field {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.board {
+  height: 80%;
+  width: 90%;
+  margin-bottom: 1rem;
+  z-index: 100;
+
+}
